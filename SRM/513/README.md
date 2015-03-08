@@ -2,12 +2,12 @@
 
 ##[Div2Easy:TrainingCamp](http://community.topcoder.com/stat?c=problem_statement&pm=11499&rd=14538)
 + タグ: Implementation
-+ 概要:
++ 概要:  
 **N**人の人間が**M**日間のキャンプに参加する．その後**Q**個の問題を解く．それぞれの問題はある日の講習を受けていないと解けない．キャンプの参加スケジュールと，問題と講習の関係が与えられるので，誰がどの問題を解けるか答えよ．
-+ 制約:
-1<=**N**<=50
-1<=**M**<=50
-1<=**Q**<=50
++ 制約:  
+1<=**N**<=50  
+1<=**M**<=50  
+1<=**Q**<=50  
 + 制限時間: 2sec
 + メモリ制限: 64MB
 + 解法:
@@ -34,8 +34,8 @@
 実装に手間取った．つらい．
 
 ##[Div2Hard:CutTheNumbers](http://community.topcoder.com/stat?c=problem_statement&pm=11501&rd=14538)
-+ タグ DP Traveling_SalesMan
-+ 概要:
++ タグ DP BitDP
++ 概要:  
 **N**\***M**のセルからなる板がある．それぞれのセルには0から9の数字が書かれている．この板を幅か長さが1になるように分割する．そのときの得点は分割した板が持つ数の総和である．板が持つ得点は左から右あるいは上から下に読んだときの数である．得点を最大化せよ．
 + 制約:  
 1<=**N**<=4  
@@ -49,9 +49,9 @@ Div2Hardにしては簡単な気がする．
 
 ##[Div1Medium:PerfectMemory](http://community.topcoder.com/stat?c=problem_statement&pm=11500)
 + タグ DP Probability
-+ 概要:
++ 概要:  
 **N**\***M**枚のカードを使って神経衰弱をする．一度めくったものをすべて記憶できるときの終了するまでの期待値を求めよ．
-+ 制約:
++ 制約:  
 1<=**N**<=50  
 1<=**M**<=50
 + 時間制限: 2sec
