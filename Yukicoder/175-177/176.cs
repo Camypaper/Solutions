@@ -16,17 +16,16 @@ namespace Program
             var b = sc.Long();
             var t = sc.Long();
             var min = long.MaxValue;
-            for (int i = 0; i < 1e7; i++)
+            for (int i = 0; i < 5e7; i++)
             {
-                var k = a * i;
-                k += b * (Math.Max(0, (t - k) / b));
-                if (Math.Max(0, (t - a * i)) % b > 0) k += b;
                 var v = b * i;
-                v += a * (Math.Max((t - v) / a, 0));
-                if (Math.Max(0, (t - b * i) % b) > 0) v += a;
-
-                min = Math.Min(min, k);
+                if(v<t)
+                {
+                    v += ((t - v) / a) * a;
+                }
+                if (v < t) v += a;
                 min = Math.Min(min, v);
+
             }
             IO.Printer.Out.WriteLine(min);
         }
