@@ -25,6 +25,7 @@
 重なりを除去しながら数える．O(N^2)
 + コメント:  
 けっこうむずい．
+
 ##[34:砂漠の行商人](http://yukicoder.me/problems/15)
 + タグ: Graph RMQ BFS DP
 + 概要:  
